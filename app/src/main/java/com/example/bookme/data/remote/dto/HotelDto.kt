@@ -1,5 +1,8 @@
 package com.example.bookme.data.remote.dto
 
+import kotlinx.serialization.Serializable
+
+@Serializable
 data class HotelDto(
     val id: String,
     val name: String,

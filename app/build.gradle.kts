@@ -33,9 +33,6 @@ android {
         )
     }
 
-    buildFeatures{
-        buildConfig = true
-    }
 
     buildTypes {
         release {
@@ -52,6 +49,7 @@ android {
     }
     buildFeatures {
         compose = true
+        buildConfig = true
     }
 }
 
