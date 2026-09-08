@@ -1,4 +1,4 @@
-package com.example.bookme.ui.theme
+package com.example.bookme.presentation.theme
 
 import androidx.compose.ui.graphics.Color
 
