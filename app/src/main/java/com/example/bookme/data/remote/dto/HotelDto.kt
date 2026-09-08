@@ -1,6 +1,6 @@
-package com.example.bookme.domain.model
+package com.example.bookme.data.remote.dto
 
-data class Hotel(
+data class HotelDto(
     val id: String,
     val name: String,
     val city: String,
@@ -14,6 +14,5 @@ data class Hotel(
     val description: String,
     val address: String,
     val latitude: Double,
-    val longitude: Double,
-    val isFavorite: Boolean = false
+    val longitude: Double
 )
