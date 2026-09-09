@@ -1,3 +1,80 @@
 <resources>
     <string name="app_name">Book Me</string>
+
+    <!-- Navigation -->
+    <string name="nav_hotels">Hotels</string>
+    <string name="nav_favorites">Favorites</string>
+
+    <!-- Hotel List Screen -->
+    <string name="search_hotels_placeholder">Search hotels...</string>
+    <string name="filters_content_description">Filters</string>
+    <string name="offline_message">You\'re offline — showing cached results</string>
+    <string name="no_search_results">No hotels match your search.</string>
+    <string name="load_more_retry">Couldn\'t load more — tap to retry</string>
+
+    <!-- Hotel Details Screen -->
+    <string name="details_title">Details</string>
+    <string name="back_content_description">Back</string>
+    <string name="remove_from_favorites">Remove from favorites</string>
+    <string name="add_to_favorites">Add to favorites</string>
+    <string name="description_label">Description</string>
+    <string name="amenities_label">Amenities</string>
+    <string name="price_label">Price</string>
+    <string name="per_night_label">per night</string>
+    <string name="book_now_button">Book Now</string>
+
+    <!-- Booking Screen -->
+    <string name="booking_title">Complete Booking</string>
+    <string name="confirm_reservation_button">Confirm Reservation</string>
+    <string name="booking_confirmed">Booking Confirmed!</string>
+    <string name="booking_success_message">Your booking reference is %1$s. You will receive a confirmation email shortly.</string>
+    <string name="back_to_hotels_button">Back to Hotels</string>
+    <string name="stay_period_title">Select Stay Period</string>
+    <string name="number_of_rooms">Number of Rooms</string>
+    <string name="decrease_content_description">Decrease</string>
+    <string name="increase_content_description">Increase</string>
+    <string name="nights_label">Nights</string>
+    <string name="rooms_label">Rooms</string>
+    <string name="subtotal_label">Subtotal</string>
+    <string name="vat_label">VAT (15%%)</string>
+    <string name="total_label">Total</string>
+    <string name="dates_section_title">Dates</string>
+    <string name="accommodation_section_title">Accommodation</string>
+    <string name="payment_section_title">Payment Details</string>
+    <string name="check_in_label">Check-in</string>
+    <string name="check_out_label">Check-out</string>
+    <string name="date_select_placeholder">Select</string>
+    <string name="date_dialog_select">Select</string>
+    <string name="date_dialog_cancel">Cancel</string>
+
+    <!-- Favorites Screen -->
+    <string name="favorites_title">Your Favorites</string>
+    <string name="no_favorites_message">You haven\'t added any favorites yet.</string>
+
+    <!-- Components & Errors -->
+    <string name="retry_button">Retry</string>
+    <string name="unknown_error">An unknown error occurred</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="error_no_internet">No internet connection</string>
+    <string name="error_not_found">Hotel not found</string>
+    <string name="error_server">Server error occurred</string>
+    <string name="error_timeout">Connection timeout</string>
+
+    <!-- Filters -->
+    <string name="filters_title">Filters</string>
+    <string name="filter_city">City</string>
+    <string name="filter_rating">Minimum rating</string>
+    <string name="filter_price">Price per night</string>
+    <string name="filter_min_price">Min $</string>
+    <string name="filter_max_price">Max $</string>
+    <string name="filter_clear">Clear</string>
+    <string name="filter_apply">Apply</string>
+    <string name="filter_any">Any</string>
+    <!-- Validation -->
+    <string name="validation_error_missing_dates">Please select both check-in and check-out dates.</string>
+    <string name="validation_error_past_date">Check-in date cannot be in the past.</string>
+    <string name="validation_error_invalid_range">Check-out date must be after check-in date.</string>
+    <string name="validation_error_no_rooms">Select at least one room.</string>
+    <string name="validation_error_too_many_rooms">For more than 10 rooms, please contact us directly.</string>
+    <string name="welcome_message">Welcome back! Where to next?</string>
 </resources>

@@ -1,4 +1,4 @@
-package com.example.bookme.domain.model
+package com.example.bookme.domain.model.hotel
 
 data class Hotel(
     val id: String,
